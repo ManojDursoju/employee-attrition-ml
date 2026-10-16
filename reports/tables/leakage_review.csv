@@ -1,0 +1,11 @@
+column,risk,decision
+row_id,Technical identifier,Exclude from predictors
+employee_id,Employee identifier; potential memorization,Exclude from predictors; use for grouping only
+observation_date,Reference/prediction date,Retain for time-aware validation; exclude as predictor initially
+resignation_date,May reveal departure,Exclude from early-warning predictors
+exit_date,Post-outcome date,Exclude from predictors
+exit_reason,Recorded during/after departure,Exclude from predictors
+exit_interview_done,Potentially recorded after departure starts,Exclude unless prediction-time availability is proven
+fnf_settlement_amount,Post-exit settlement,Exclude from predictors
+voluntary_left_within_12m,May overlap with target definition,Exclude until definition is verified
+dept_attrition_rate_prior_12m,Potentially valid only if strictly historical,Exclude until temporal construction is verified

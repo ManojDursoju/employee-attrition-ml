@@ -1,0 +1,43 @@
+column_name,data_type,non_missing_values,unique_non_missing_values,role,plain_language_definition
+row_id,int64,2389,2389,Identifier,Confirm definition against source data dictionary
+employee_id,object,2389,2383,Identifier,Confirm definition against source data dictionary
+observation_date,datetime64[ns],2389,1135,Date/reference,Confirm definition against source data dictionary
+department_id,object,2389,10,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+role_id,object,2389,48,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+job_level,int64,2389,6,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+work_location,object,2389,16,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+work_mode,object,2389,3,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+employment_type,object,2389,2,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+highest_education,object,2374,27,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+tenure_months,int64,2389,148,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+total_experience_years,float64,2389,224,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+previous_employers_count,int64,2389,7,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+commute_distance_km,float64,2334,372,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+annual_fixed_pay,int64,2389,2364,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+comp_ratio,float64,2389,585,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+raises_received,int64,2389,8,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+last_raise_pct,float64,2187,184,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+months_since_last_raise,int64,2389,48,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+promotions_received,int64,2389,8,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+months_since_last_promotion,float64,930,94,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+internal_transfers,int64,2389,3,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+last_performance_rating,float64,2207,5,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+last_engagement_score,float64,1861,38,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+manager_changes_12m,int64,2389,5,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+training_hours_12m,float64,2389,593,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+attendance_rate_3m,float64,2389,1051,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+late_arrivals_3m,int64,2389,27,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+avg_overtime_hours_per_month_3m,float64,2389,390,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+avg_hours_worked_3m,float64,2389,181,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+wfh_share_3m,float64,2389,619,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+unpaid_leave_days_6m,float64,2389,20,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+paid_leave_days_6m,int64,2389,23,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+dept_attrition_rate_prior_12m,float64,2389,1082,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+left_within_12m,int64,2389,2,Target,Confirm definition against source data dictionary
+voluntary_left_within_12m,int64,2389,2,Potential leakage / audit-only,Confirm definition against source data dictionary
+source,object,2389,2,Candidate predictor; verify prediction-time availability,Confirm definition against source data dictionary
+exit_date,datetime64[ns],349,307,Potential leakage / audit-only,Confirm definition against source data dictionary
+resignation_date,datetime64[ns],321,296,Potential leakage / audit-only,Confirm definition against source data dictionary
+exit_reason,object,349,11,Potential leakage / audit-only,Confirm definition against source data dictionary
+exit_interview_done,object,349,2,Potential leakage / audit-only,Confirm definition against source data dictionary
+fnf_settlement_amount,float64,349,349,Potential leakage / audit-only,Confirm definition against source data dictionary

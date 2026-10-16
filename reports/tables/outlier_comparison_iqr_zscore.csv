@@ -1,0 +1,4 @@
+feature,iqr_lower,iqr_upper,iqr_count,iqr_percent,zscore_abs_gt_3_count,zscore_abs_gt_3_percent,flagged_by_both
+annual_fixed_pay,-990153.0,2838351.0,93,3.9,26,1.09,26
+avg_hours_worked_3m,7.925000000000002,9.404999999999998,48,2.01,15,0.63,15
+tenure_months,-31.5,100.5,73,3.06,45,1.89,45

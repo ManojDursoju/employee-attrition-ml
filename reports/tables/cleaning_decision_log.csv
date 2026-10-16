@@ -1,0 +1,5 @@
+feature,issue,action,affected_rows
+months_since_last_promotion,Missing when promotions_received == 0,Preserved NaN in audit copy; created never_promoted indicator,1459
+highest_education,Education not recorded,Filled with Unknown,15
+tenure_months,Negative tenure is invalid under feature definition,Set to NaN pending source correction; no global imputation,4
+employee-observation record,Repeated records identical apart from row_id,Kept first copy in df_clean; preserved original df,6

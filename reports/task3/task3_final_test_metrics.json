@@ -1,0 +1,10 @@
+{
+  "selected_model": "Logistic Regression \u2014 unweighted",
+  "accuracy": 0.8532494758909853,
+  "balanced_accuracy": 0.5532292032292032,
+  "precision_attrition": 0.5,
+  "recall_attrition": 0.12857142857142856,
+  "f1_attrition": 0.20454545454545456,
+  "roc_auc": 0.6834327834327835,
+  "average_precision": 0.32676073195610383
+}

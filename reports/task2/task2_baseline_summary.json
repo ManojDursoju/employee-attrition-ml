@@ -1,0 +1,16 @@
+{
+  "selected_model": "Random Forest",
+  "test_metrics": {
+    "accuracy": 0.859538784067086,
+    "precision_attrition": 0.7142857142857143,
+    "recall_attrition": 0.07142857142857142,
+    "f1_attrition": 0.12987012987012986,
+    "roc_auc": 0.684134784134784,
+    "average_precision": 0.3599044959707579
+  },
+  "model_path": "/app/artifacts/models/attrition_baseline_pipeline.joblib",
+  "metadata_path": "/app/artifacts/models/attrition_baseline_metadata.json",
+  "feature_count": 31,
+  "training_rows": 1906,
+  "test_rows": 477
+}

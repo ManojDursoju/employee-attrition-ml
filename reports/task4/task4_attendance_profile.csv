@@ -1,0 +1,6 @@
+,dtype,missing_count,missing_pct,unique_values
+attendance_rate_3m,float64,0,0.0,1051
+late_arrivals_3m,int64,0,0.0,27
+avg_overtime_hours_per_month_3m,float64,0,0.0,390
+unpaid_leave_days_6m,float64,0,0.0,20
+paid_leave_days_6m,int64,0,0.0,23

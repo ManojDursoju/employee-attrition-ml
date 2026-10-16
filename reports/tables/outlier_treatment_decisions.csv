@@ -1,0 +1,4 @@
+feature,treatment_decision
+annual_fixed_pay,Retain IQR/z-score flags unless source validation proves an error; inspect salary units and distribution.
+avg_hours_worked_3m,Validate units and allowed range; correct only confirmed data errors.
+tenure_months,Negative values set to missing; retain plausible high tenure values.

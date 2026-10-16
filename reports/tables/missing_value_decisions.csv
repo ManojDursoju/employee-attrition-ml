@@ -1,0 +1,12 @@
+column,decision
+resignation_date,Preserve for audit; exclude from predictors
+exit_date,Preserve for audit; exclude from predictors
+exit_reason,Preserve for audit; exclude from predictors
+exit_interview_done,Preserve for audit; exclude unless availability is proven safe
+fnf_settlement_amount,Preserve for audit; exclude from predictors
+months_since_last_promotion,Keep NaN for never-promoted employees; add indicator
+last_engagement_score,Median imputation in training-only pipeline
+last_raise_pct,Median imputation in training-only pipeline
+last_performance_rating,Validate range; median imputation in training-only pipeline
+commute_distance_km,Validate nonnegative; median imputation in training-only pipeline
+highest_education,Fill with Unknown if accepted by data definition
